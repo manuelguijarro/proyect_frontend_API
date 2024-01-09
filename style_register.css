@@ -1,0 +1,46 @@
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh; /* Set the container to full viewport height */
+}
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 300px;
+     /* Adjust the max-width to your preference */
+}
+
+.form-group {
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
