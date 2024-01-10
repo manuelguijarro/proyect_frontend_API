@@ -31,7 +31,7 @@ loginForm.addEventListener("submit", async function(event) {
     const password = await hash(password_input).then((hex) => hex);
     console.log(password);
     try {
-        const response = await fetch("https://proyect-backend-api.vercel.app/api/users/check", {
+        const response = await fetch("https://proyect-backend-api-1s58-three.vercel.app/api/users/check", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
